@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32526.322
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Sandbox", "Sandbox\Sandbox.vcxproj", "{4D175FAC-7A27-4797-86F9-527E3EEDA74D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ravbite", "Ravbite\Ravbite.vcxproj", "{4508A5F7-4DCF-49A5-AE53-E5C203E65B99}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4508A5F7-4DCF-49A5-AE53-E5C203E65B99}.Debug|x64.ActiveCfg = Debug|x64
+		{4508A5F7-4DCF-49A5-AE53-E5C203E65B99}.Debug|x64.Build.0 = Debug|x64
+		{4508A5F7-4DCF-49A5-AE53-E5C203E65B99}.Release|x64.ActiveCfg = Release|x64
+		{4508A5F7-4DCF-49A5-AE53-E5C203E65B99}.Release|x64.Build.0 = Release|x64
+		{4D175FAC-7A27-4797-86F9-527E3EEDA74D}.Debug|x64.ActiveCfg = Debug|x64
+		{4D175FAC-7A27-4797-86F9-527E3EEDA74D}.Debug|x64.Build.0 = Debug|x64
+		{4D175FAC-7A27-4797-86F9-527E3EEDA74D}.Release|x64.ActiveCfg = Release|x64
+		{4D175FAC-7A27-4797-86F9-527E3EEDA74D}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D3B24873-F26A-416F-A7DD-D9E48BD15803}
+	EndGlobalSection
+EndGlobal

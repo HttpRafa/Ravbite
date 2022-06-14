@@ -1,3 +1,10 @@
+# Directories
+bin/
+
+# Visual Studio
+.vs/
+*.user
+
 # Prerequisites
 *.d
 
