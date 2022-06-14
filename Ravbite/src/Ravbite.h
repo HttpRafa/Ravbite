@@ -1,5 +1,7 @@
 #pragma once
 
-#include "core/Application.h"
+#include "Ravbite/Application.h"
+#include "Ravbite/Log.h"
 
-#include "core/EntryPoint.h"
+// Entry Point
+#include "Ravbite/EntryPoint.h"
