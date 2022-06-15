@@ -1,5 +1,17 @@
 #include <Ravbite.h>
 
-int main() {
-	return 0;
+class SandBox : public Ravbite::Application
+{
+
+public:
+
+
+private:
+
+
+};
+
+Ravbite::Application* Ravbite::createApplication()
+{
+	return new SandBox();
 }
