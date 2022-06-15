@@ -1,17 +1,16 @@
 #pragma once
 
-#include "Core.h"
+#include "Ravbite/Core.h"
 
 namespace Ravbite {
 
-	class RB_API Application {
+	class RAVBITE_API Application {
 
 	public:
 		Application();
 		virtual ~Application();
 
 		void run();
-
 	};
 
 	Application* createApplication();

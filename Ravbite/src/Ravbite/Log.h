@@ -1,13 +1,14 @@
 #pragma once
 
-#include "Core.h"
+#include "Ravbite/Core.h"
 #include "spdlog/spdlog.h"
+#include "spdlog/fmt/ostr.h"
 
 #include <memory>
 
 namespace Ravbite {
 
-	class RB_API Log {
+	class RAVBITE_API Log {
 
 	private:
 		static std::shared_ptr<spdlog::logger> s_coreLogger;
