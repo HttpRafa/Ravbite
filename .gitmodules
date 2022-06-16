@@ -1,3 +1,6 @@
 [submodule "Ravbite/vendor/spdlog"]
 	path = Ravbite/vendor/spdlog
 	url = https://github.com/gabime/spdlog
+[submodule "Ravbite/vendor/GLFW"]
+	path = Ravbite/vendor/GLFW
+	url = https://github.com/HttpRafa/glfw.git

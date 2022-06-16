@@ -4,6 +4,8 @@ workspace "Ravbite"
 
 outputDir = "%{cfg.buildcfg}-%{cfg.system}-%{cfg.architecture}"
 
+include "Ravbite/vendor/GLFW"
+
 project "Ravbite"
     location "Ravbite"
     kind "SharedLib"
@@ -23,7 +25,13 @@ project "Ravbite"
 
     includedirs {
         "%{prj.name}/src",
-        "%{prj.name}/vendor/spdlog/include"
+        "%{prj.name}/vendor/spdlog/include",
+        "%{prj.name}/vendor/GLFW/include"
+    }
+
+    links {
+        "GLFW",
+        "opengl32.lib"
     }
 
     filter "system:windows"
