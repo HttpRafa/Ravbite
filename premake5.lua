@@ -12,6 +12,9 @@ project "Ravbite"
     targetdir ("target/bin/" .. outputDir .. "/%{prj.name}")
     objdir ("target/obj/" .. outputDir .. "/%{prj.name}")
 
+    pchheader "rbpch.h"
+    pchsource "Ravbite/src/rbpch.cpp"
+
     files { 
         "%{prj.name}/src/**.h", 
         "%{prj.name}/src/**.hpp", 

@@ -1,3 +1,4 @@
+#include "rbpch.h"
 #include "Ravbite/Log.h"
 #include "spdlog/sinks/stdout_color_sinks.h"
 

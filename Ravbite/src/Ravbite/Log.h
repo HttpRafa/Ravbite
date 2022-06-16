@@ -4,8 +4,6 @@
 #include "spdlog/spdlog.h"
 #include "spdlog/fmt/ostr.h"
 
-#include <memory>
-
 namespace Ravbite {
 
 	class RAVBITE_API Log {
