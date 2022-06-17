@@ -4,7 +4,9 @@ class SandBox : public Ravbite::Application
 {
 
 public:
+	SandBox() {
 
+	}
 
 private:
 

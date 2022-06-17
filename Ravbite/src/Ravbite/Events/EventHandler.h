@@ -14,7 +14,7 @@ namespace Ravbite {
 		void subscribe(const std::function<bool(Event&)>& function);
 
 		template<typename T>
-		void typeSub(std::function<bool(T&)> func)
+		void typeSubscribe(std::function<bool(T&)> func)
 		{
 			std::function<bool(Event&)> function = [=](Event& a_event)
 			{

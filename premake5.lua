@@ -36,7 +36,7 @@ project "Ravbite"
 
     filter "system:windows"
         cppdialect "C++20"
-        staticruntime "On"
+        staticruntime "off"
         systemversion "latest"
 
         defines {
@@ -49,15 +49,22 @@ project "Ravbite"
         }
 
     filter "configurations:Debug"
-        defines "RB_DEBUG"
+        defines {
+            "RB_DEBUG",
+            "RB_ENABLE_ASSERTS"
+        }
         symbols "On"
 
     filter "configurations:Release"
-        defines "RB_RELEASE"
+        defines {
+            "RB_RELEASE"
+        }
         optimize "On"
 
     filter "configurations:Dist"
-        defines "RB_DIST"
+        defines {
+            "RB_DIST"
+        }
         optimize "On"
 
 project "Sandbox"
@@ -93,13 +100,20 @@ project "Sandbox"
             }
     
         filter "configurations:Debug"
-            defines "RB_DEBUG"
+            defines {
+                "RB_DEBUG",
+                "RB_ENABLE_ASSERTS"
+            }
             symbols "On"
     
         filter "configurations:Release"
-            defines "RB_RELEASE"
+            defines {
+                "RB_RELEASE"
+            }
             optimize "On"
     
         filter "configurations:Dist"
-            defines "RB_DIST"
+            defines {
+                "RB_DIST"
+            }
             optimize "On"
